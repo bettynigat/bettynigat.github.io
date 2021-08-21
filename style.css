@@ -51,7 +51,7 @@
 
 
 .img1 {
-    background: url('unix_shell.jpg'); 
+    background: url('img/unix_shell.jpg'); 
     background-size: cover; 
 }
 
@@ -62,7 +62,7 @@
 
 .img2
 {
-  background: url('red-black-tree.png'); 
+  background: url('img/red-black-tree.png'); 
   background-size: cover; 
 }
 .img3
@@ -72,17 +72,17 @@
 }
 .img4
 {
-  background: url('http.png'); 
+  background: url('img/http.png'); 
   background-size: cover; 
 }
 .img5
 {
-  background: url('stcp.png'); 
+  background: url('img/stcp.png'); 
   background-size: cover; 
 }
 .img6
 {
-  background: url('taxi_route_planner.jpg'); 
+  background: url('img/taxi_route_planner.jpg'); 
   background-size: cover; 
 }
 
