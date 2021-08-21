@@ -126,7 +126,7 @@ header {
 {
   background: #dcdcdc;
   position: relative; 
-  margin-top: -100px; 
+  margin-top: 20px; 
   margin-left: 0px;
   height: 800px; 
 }
@@ -299,7 +299,7 @@ h1 {
   font-size: 42px;
   font-weight: 600;
   text-align: center;
-}
+}list
 
 h3 {
   color: red;
