@@ -232,7 +232,7 @@ section h2{
 
 section p{
   color: black; 
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .flex-container {
@@ -311,5 +311,5 @@ h3 {
 p {
   color: grey;
   font-size: 16px;
-  line-height: 48px;
+
 }
