@@ -91,6 +91,11 @@
   background-size: cover; 
 }
 
+.work
+{
+  background: white;
+}
+
 .contact-info
 {
   background: #dcdcdc;
