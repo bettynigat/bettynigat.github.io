@@ -97,6 +97,11 @@
   width:100%; 
 }
 
+#language
+{
+  height: 200px; 
+}
+
 .contact-info
 {
   background: #dcdcdc;
