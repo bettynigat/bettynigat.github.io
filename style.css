@@ -245,7 +245,6 @@ section p{
   grid-template-columns:  1fr 1fr; 
   grid-gap: 30px;
   margin-right: 100px; 
-  height:1400px;   
 }
 
 .flex-containerCopy {
@@ -266,7 +265,6 @@ section p{
     height: 100vh;
     text-align: center; 
     float: left; 
-     
 }
 
 .flex-left span {
