@@ -91,9 +91,9 @@
   background-size: cover; 
 }
 
-.work
+#work
 {
-  background: red;
+  background-color: red;
 }
 
 .contact-info
