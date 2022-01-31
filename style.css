@@ -264,7 +264,7 @@ section p{
     width: 200%;
     height: 100vh;
     text-align: center; 
-    float: left; 
+    float: center; 
 }
 
 .flex-left span {
