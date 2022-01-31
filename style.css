@@ -244,7 +244,8 @@ section p{
   display: grid; 
   grid-template-columns:  1fr 1fr; 
   grid-gap: 30px;
-  margin-right: 100px;  
+  margin-right: 100px; 
+  height:800px; 
     
 }
 .flex-container h2{
