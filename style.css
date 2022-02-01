@@ -65,7 +65,7 @@
 }
 figure {
     display: inline-block;
-    margin-top: 0px; /* adjust as needed */
+    margin-top: 10px; /* adjust as needed */
 }
 img {
     //text-align: center;
@@ -79,6 +79,7 @@ img {
   display: inline;
   width: 50%; 
   position: relative; 
+  padding-left: 5px; 
 }
 .article h2{
   text-align: center; 
@@ -196,6 +197,7 @@ section p{
 .contact
 {
   padding-left: 15px; 
+  margin-bottom: 10px; 
 }
 .contact div
 {
