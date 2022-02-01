@@ -5,37 +5,149 @@
   font-family: 'Poppins', sans-serif; 
 }
 
-.projects
+.mainContainer{
+  display: flex; 
+  flex-direction: column; 
+}
+.profile, .work, .project{
+  background-color:white; 
+  padding: 15px 0; 
+}
+.education, .language, .contact{
+  background-color: #dcdcdc; 
+  padding: 15px 0; 
+}
+
+.navigation{
+  background-color: #dcdcdc;
+  margin: 0;
+  padding: 30px 0;
+}
+.navigation span{
+  width: 120px;
+  float: right;   
+}
+.navigation span a
+{
+  text-decoration: none;
+  color: #000000; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navigation span a:hover{
+  font-weight: bold; 
+  color: blue;
+}
+.intro
+{
+  position: relative; 
+  margin-left: 50px; 
+}
+.circle
+{
+  position: relative; 
+  overflow: hidden; 
+  width: 350px; 
+  height: 350px; 
+  float: left; 
+  border-radius: 50%; 
+  margin-top: 15px; 
+  margin-bottom:1px; 
+  margin-left: 50px; 
+  shape-outside: circle(); 
+}
+.circle img{
+  top: 0; 
+  left:0; 
+  width: 60%; 
+  height: 60%; 
+}
+figure {
+    display: inline-block;
+    margin-top: 0px; /* adjust as needed */
+}
+img {
+    //text-align: center;
+    width: 100%;
+    margin: auto;
+    //display: block;
+    height: 1px; 
+}
+.article
+{
+  display: inline;
+  width: 50%; 
+  position: relative; 
+}
+.article h2{
+  text-align: center; 
+}
+.article p{
+  font-size:15px; 
+}
+h2{
+  color: #191970; 
+  font-size: 25px; 
+  margin-bottom: 10px; 
+}
+
+section p{
+  color: black; 
+  line-height: 40px;
+}
+
+//education
+.headerTitle
+{
+  padding: 100px 0; 
+}
+.education{
+  text-align: center; 
+}
+.univName, .educName, .degree, .date
+{
+  text-align:center; 
+}
+
+.date
+{
+  font-size: 12px; 
+  opacity: 0.75;
+}
+.degree
+{ 
+ font-family: Arial, sans-serif;
+ color:mediumvioletred  ; 
+ font-weight: bold;
+ font-size:16px;
+}
+.lan
+{
+  text-align:center; 
+}
+
+.project
 {
   text-align: center;
   margin: 30px;
 }
-
-.container2{
+.projectList{
   display: grid; 
   grid-template-columns:  1fr 1fr 1fr; 
   grid-gap: 30px; 
 }
-
-.container{
-  display: grid; 
-  grid-template-columns:  1fr 1fr 1fr; 
-  grid-gap: 30px; 
-}
- 
-.container > div 
+.projectList > div 
 {
   height: 250px; 
   cursor: pointer;
   transition: all 0.5s ease-in;  
 }
-
-.container > div:hover{
+.projectList > div:hover{
   opacity: 0.7; 
   transform: scale(0.98); 
 }
-
-.container p
+.projectList p
 {
   background-color: #36b9bb;
   color: #FFF;
@@ -48,18 +160,14 @@
   margin: 0 auto; 
   text-align: center; 
 }
-
-
+.img1 a, .img2 a, .img3 a, .img4 a, .img5 a, .img6 a, .img7 a
+{
+  text-decoration: none; 
+}
 .img1 {
     background: url('img/unix_shell.jpg'); 
     background-size: cover; 
 }
-
-.img1 a, .img2 a, .img3 a, .img4 a, .img5 a, .img6 a, .img7 a, 
-{
-  text-decoration: none; 
-}
-
 .img2
 {
   background: url('img/red-black-tree.png'); 
@@ -90,27 +198,11 @@
   background: url('img/todolist.jpg'); 
   background-size: cover; 
 }
-
-#work
+.contact
 {
-  background-color: white;
-  width:100%; 
+  padding-left: 15px; 
 }
-
-#lan
-{
-  height: 200px; 
-}
-
-.contact-info
-{
-  background: #dcdcdc;
-  position: relative; 
-  top: 300px; 
-  height: 300px; 
-}
-
-.contact-info span
+.contact div
 {
   display: block;
   color: #000;
@@ -119,220 +211,8 @@
   font-size: 17px;
   font-weight: 100; 
   letter-spacing: 2px;
-  margin: 15px;  
 }
 
-.contact-info span a
+.contact div a
 {
   text-decoration: none; 
-}
-
-html, body{
-  font-size:16px;
-  color: #dfdfdf;
-
-}
-
-header {
-  background-color: #dcdcdc;
-  width: 100%; 
-  //position: fixed; 
-}
-.list 
-{
-  background: #dcdcdc;
-  position: relative; 
-  margin-top: -30px; 
-  margin-left: 0px;
-  height: 800px; 
-}
-
-nav {
-  margin: 0;
-  padding: 50px 0;
-}
-nav span{
-  //display: inline-block; 
-  width: 120px;
-  float: right;   
-}
-nav span a
-{
-  text-decoration: none;
-  color: #000000; 
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-nav span a:hover{
-  font-weight: bold; 
-  color: blue;
-}
-
-
-section
-{
-  position: relative; 
-  //top: 100px; 
-  width: 100%; 
-  height: 1000px; 
-  padding: 50px;
-}
-
-figure {
-    display: inline-block;
-    margin-top: 0px; /* adjust as needed */
-}
-img {
-    //text-align: center;
-    width: 100%;
-    margin: auto;
-    //display: block;
-    height: 1px; 
-     
-}
-
-.article
-{
-  display: inline;
-  width: 50%; 
-  position: relative; 
-}
-
-.article h2{
-  text-align: center; 
-}
-
-.article p{
-  font-size:15px; 
-}
-.name
-{
-  text-align: center; 
-}
-
-.intro
-{
-  position: relative; 
-  margin-left: 50px; 
-}
-.circle
-{
-  position: relative; 
-  overflow: hidden; 
-  width: 350px; 
-  height: 350px; 
-  float: left; 
-  border-radius: 50%; 
-  margin-top: 15px; 
-  margin-bottom:1px; 
-  margin-left: 50px; 
-  shape-outside: circle(); 
-}
-
-.circle img{
-  //position: absolute; 
-  top: 0; 
-  left:0; 
-  width: 60%; 
-  height: 60%; 
-  //object-fit: cover; 
-}
-section h2{
-  color: #191970; 
-  font-size: 25px; 
-  margin-bottom: 10px; 
-
-}
-
-section p{
-  color: black; 
-  line-height: 40px;
-}
-
-.flex-container {
-  display: grid; 
-  grid-template-columns:  1fr 1fr; 
-  grid-gap: 30px;
-  margin-right: 100px; 
-}
-
-.flex-containerCopy {
-  display: grid; 
-  grid-template-columns:  1fr 1fr; 
-  grid-gap: 30px;
-  margin-right: 100px; 
-  height:1400px; 
-  position:relative;   
-}
-.flex-container h2{
-  color: #191970; 
-  font-size: 25px; 
-  
-}
-.flex-left {
-    width: 200%;
-    height: 200vh;
-    text-align: center; 
-    float: center; 
-}
-
-.flex-left span {
-  display: block;
-  font-size: 20px;
-  color: black; 
-  letter-spacing: 2px;
-  margin: 10px 0px; 
- 
-}
-  
-.flex-left span a{
-  //font-weight: bold;
-  color: blue;  
-  text-decoration: none; 
-  text-align: center;
-  font-size: 15px; 
-}
-.flex-left span a:hover{
- 
-  font-weight: bold;  
-}
-
-#date1, #date2, #date2_2
-{
-  font-size: 12px; 
-  opacity: 0.75;
-}
-
-#degree1, #degree2, #position, #position_2
-{ 
- font-family: Arial, sans-serif;
- color:mediumvioletred  ; 
- font-weight: bold;
- font-size:16px;
- //width: 300px;   }
-
- .language span
- {
-   font-size: 16px; 
- }
-h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
-  text-align: center;
-}list
-
-h3 {
-  color: red;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
-}
-
-p {
-  color: grey;
-  font-size: 16px;
-
-}
