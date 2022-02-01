@@ -110,7 +110,9 @@ section p{
 {
   text-align:center; 
 }
-
+.univName{
+  font-weight:bold;
+}
 .date
 {
   font-size: 12px; 
