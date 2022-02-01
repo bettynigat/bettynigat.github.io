@@ -106,6 +106,10 @@ section p{
 .education{
   text-align: center; 
 }
+.education p, .work p 
+{
+padding: 3px 0;
+}
 .univName, .educName, .degree, .date
 {
   text-align:center; 
