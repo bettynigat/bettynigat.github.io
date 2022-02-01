@@ -33,7 +33,7 @@
   color: #000000; 
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 }
 .navigation span a:hover{
   font-weight: bold; 
@@ -197,17 +197,17 @@ section p{
 .contact
 {
   padding-left: 15px; 
-  margin-bottom: 10px; 
+  padding-bottom: 10px; 
 }
 .contact div
 {
   display: block;
   color: #000;
   width: 50%;
-  font-family: 'Oswald', sans-serif;
+/*   font-family: 'Oswald', sans-serif;
   font-size: 17px;
   font-weight: 100; 
-  letter-spacing: 2px;
+  letter-spacing: 2px; */
 }
 
 .contact div a
